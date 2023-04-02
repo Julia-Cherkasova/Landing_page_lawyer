@@ -1,0 +1,156 @@
+/********TAG SELECTORS********/
+body{
+    background-color: antiquewhite;
+    font-family: Merriweather, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+header{
+    background-color: #062721;
+    color: antiquewhite;
+    font-size: 1.1rem;
+    height:1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+    border-bottom: 1px #473021 solid;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    width: 8rem;  
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem auto;
+}
+footer{
+    color:antiquewhite;
+    background-color: #062721;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+footer p{
+    margin:0;  
+}
+section{
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+    height: 16.25rem;
+}
+
+/********CLASS SELECTORS********/
+.header_menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;  
+}
+.img_main_page {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text_main_page,
+.img_main_page{
+    background-color: antiquewhite;
+    height: 16.25rem;
+    width: 34.375rem;
+    padding: 1rem 2rem;
+    border: 0.08rem solid rgb(94, 55, 28);
+}
+.img_page_2{
+    width: 18.75rem;
+    border:0.1rem solid rgb(94, 55, 28);
+}
+.sign_up_button{
+    width:8rem;
+    height: 2rem;
+    background-color: #5e371c;
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+.services_container{
+    height: 500px;
+    margin: 3rem;
+    display:flex;
+    justify-content: space-around;
+}
+.services_container p{
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+.section_3{
+    box-sizing: border-box;
+    color: antiquewhite;
+    background-color: #473021;
+    font-size: 2rem;
+    height:28.125rem;
+    padding: 3.5em;
+}
+.section_4{
+    height: 17rem;
+}
+.container_inside_section_4 {
+    height: 12rem;
+    width: 70rem;
+    border-radius: 1.1rem;
+    background-color: #123C35;
+    box-sizing: border-box;
+    padding: 3rem 6rem;
+    margin: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.container_inside_section_4 p{
+    color: antiquewhite;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 0;    
+}
+.container_inside_section_4 button{
+    font-size: 1.3em;
+    height: 2rem;
+    width: 7rem;
+    margin-left:auto;
+}
+
+.quote,
+.quote_author{
+    width: 43.75rem; 
+    margin-right: auto;
+    margin-left: auto;
+}
+.quote_author{
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+/********ID SELECTORS********/
+
+#lawyers{
+    text-align: start;
+}
